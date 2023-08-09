@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KrikST/Bloxify/main/Main"))(); --Main Loader 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KrikST/Bloxify/main/Main"))(); --Boot Loader 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KrikST/Bloxify/main/ApexLoader"))(); --Apex Loader
 
