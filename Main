@@ -34,14 +34,22 @@ local Window = Rayfield:CreateWindow({
  local Button = Tab:CreateButton({
     Name = "Bloxify APEX Loader (Our Database)",
     Callback = function()
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KrikST/Bloxify/main/ApexLoader"))();
+        wait()
         Rayfield:Destroy() -- for rn
+
     end,
  })
 
  local Button = Tab:CreateButton({
     Name = "Sakpot FUCKER Loader (Form his yt videos)",
     Callback = function()
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KrikST/Bloxify/main/SkapotFucker%20Loader"))();
+        wait()
         Rayfield:Destroy() -- for rn
+
     end,
  })
 
