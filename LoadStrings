@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KrikST/Bloxify/main/Main"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KrikST/Bloxify/main/Main"))(); --Main Loader
