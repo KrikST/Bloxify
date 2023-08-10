@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
     Name = "🔥💰S̷̷k̷a̷̷p̷̷o̷̷t̷ ̷F̷̷u̷̷c̷̷k̷̷e̷̷r̷ ̷L̷̷o̷a̷̷d̷̷e̷̷r̷ 🔥💰",
-    LoadingTitle = "Offical Skapot Fucker Loader",
+    LoadingTitle = "Loading...",
     LoadingSubtitle = "by Bloxify Team",
     ConfigurationSaving = {
        Enabled = true,
@@ -29,5 +29,41 @@ local Window = Rayfield:CreateWindow({
 --Games Supported
 --Arsenal
 --Please Donate
+--Pet Sim X
+--Block Fruits
+--Brook Heaven
+--DaHood
+
+
+
+if game.PlaceId == 286090429 then
+   
+   loadstring(game:HttpGet(("https://pastebin.com/raw/a15ezPaB"),true))()
+
+end
+
+if game.PlaceId == 8737602449 then
+   
+   loadstring(game:HttpGet(('https://pastebin.com/raw/f0a3yune')))()
+
+end
+
+
+
 
 local Tab = Window:CreateTab("☁️Main☁️") -- Title, Image
+local Section = Tab:CreateSection("Supported Games: ")
+
+local Label = Tab:CreateLabel("Arsneal (Keyless grey GUI)")
+local Label = Tab:CreateLabel("Please Donate (Moon)")
+local Label = Tab:CreateLabel("Pet Simulator X")
+local Label = Tab:CreateLabel("Brook Heaven")
+local Label = Tab:CreateLabel("DaHood")
+
+local Section = Tab:CreateSection("BootLoader: ")
+   local Button = Tab:CreateButton({
+   Name = "Back to boot loader",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/KrikST/Bloxify/main/Main"))();
+   end,
+})
