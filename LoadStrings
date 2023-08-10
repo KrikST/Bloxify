@@ -1,5 +1,1 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KrikST/Bloxify/main/Main"))(); --Boot Loader 
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KrikST/Bloxify/main/ApexLoader"))(); --Apex Loader
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KrikST/Bloxify/main/SkapotFucker%20Loader"))(); --SkapotFucker Loader
