@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "⭐B̷̷l̷̷o̷̷x̷̷i̷̷f̷̷y̷ ̷A̷̷p̷̷e̷̷x̷ ̷L̷̷o̷a̷̷d̷̷e̷̷r̷ ⭐",
+    Name = "🌟B̷̷l̷̷o̷̷x̷̷i̷̷f̷̷y̷ ̷A̷̷p̷̷e̷̷x̷ ̷L̷̷o̷a̷̷d̷̷e̷̷r̷ 🌟",
     LoadingTitle = "Offical Apex Loader",
     LoadingSubtitle = "by Bloxify Team",
     ConfigurationSaving = {
@@ -33,3 +33,14 @@ local Window = Rayfield:CreateWindow({
 
 
  local Tab = Window:CreateTab("⚡Main⚡") -- Title, Image
+ local Section = Tab:CreateSection("Supported Games: ")
+ local Label = Tab:CreateLabel("Arsneal")
+ local Label = Tab:CreateLabel("Please Donate")
+
+ local Section = Tab:CreateSection("BootLoader: ")
+   local Button = Tab:CreateButton({
+   Name = "Back to boot loader",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/KrikST/Bloxify/main/Main"))();
+   end,
+})
